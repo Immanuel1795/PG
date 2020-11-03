@@ -1,0 +1,39 @@
+<%- include("partials/header"); -%>
+
+<%users.forEach(function(user) {%>
+<div class="container info-container">
+<div class="card">
+  <div class="card-body ">
+    <h5 class="card-title"><%=user.name%></h5>
+      
+      <div class="row info-card">
+        <div class="col-lg-6">
+            <h6 class="card-text">Admission Number: <%=user.id%></h6> 
+            <h6 class="card-text">Full Name: <%=user.name%> <%=user.lName%></h6> 
+            <h6 class="card-text">Phone Number: <%=user.number%></h6>
+            <h6 class="card-text">Aadhar Number: <%= user.aadhar%></h6> 
+        </div>
+          
+        <div class="col-lg-6">
+            <h6 class="card-text">email: <%= user.email%></h6>
+            <h6 class="card-text">Home Address: <%= user.haddr%></h6> 
+            <h6 class="card-text">Rent: <%= user.rent%></h6>
+            <h6 class="card-text">Advance: <%= user.advance%></h6>
+        </div>
+          
+      </div>
+
+     
+
+    
+  </div>
+</div>
+</div>
+ <%});%>    
+
+
+
+
+
+<%- include("partials/footer"); -%>
+

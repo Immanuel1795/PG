@@ -1,0 +1,35 @@
+body{
+    background-color: blueviolet;
+}
+
+.form-container{
+    padding: 3% 15% 5.9%;
+    color: whitesmoke;
+}
+
+.info-container{
+    padding-top: 2%;
+    padding-bottom: 2%
+}
+
+.info-card{
+    padding: 1%;
+}
+
+.footer-txt{
+    color: white;
+    
+}
+
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 1.253) !important;
+}
+.card-text {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Bold";
+}
+
+.card-title{
+    font-size: 2rem;
+    font-family: "Montserrat-Black";
+}
